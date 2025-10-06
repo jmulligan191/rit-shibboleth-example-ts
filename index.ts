@@ -104,7 +104,10 @@ const ensureAuthenticated = (
  * @returns {void}
  */
 app.get("/", ensureAuthenticated, (req: Request, res: Response): void => {
-  req.user && res.send(`Hello, ${req.user.FirstName} ${req.user.LastName}`);
+  //req.user && res.send(`Hello, ${req.user.FirstName} ${req.user.LastName}`);
+  if (req.user && req.user instanceof User) {
+    res.send(`Hello, ${req.user.FirstName} ${req.user.LastName}`);
+  }
 });
 
 /**

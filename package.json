@@ -22,7 +22,8 @@
     "express": "^4.17.2",
     "express-session": "^1.17.2",
     "passport": "^0.5.2",
-    "passport-saml": "^3.2.1"
+    "passport-saml": "^3.2.1",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",

@@ -28,6 +28,15 @@ Lastly, copy `.env.sample` to `.env` and edit appropriately. Running this app lo
 
 # Usage
 
+I used NPM. You can also use Yarn though.
+
+```bash
+npm install
+npm start
+```
+
+For yarn:
+
 ```bash
 yarn install    # npm install for npm
 yarn start      # npm start for npm
