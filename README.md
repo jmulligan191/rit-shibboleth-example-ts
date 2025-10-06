@@ -27,7 +27,7 @@ Lastly, copy `.env.sample` to `.env` and edit appropriately. Running this app lo
 [Contact ITS](https://help.rit.edu/) to register your Service Provider. During this step, the IdP Administrator downloads the metadata from the `/Shibboleth.sso/Metadata` endpoint and loads it into the IdP.
 
 # Usage
-
+ 
 I used NPM. You can also use Yarn though.
 
 ```bash
